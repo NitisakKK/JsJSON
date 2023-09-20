@@ -1,0 +1,16 @@
+ตัว JSON จะมีลักษณะคล้ายๆ Object ใน JS
+---------------------------- Data type ---------------------------- 
+Number,String,Boolean,Null,Array,Object
+
+let objectName = {
+    "key1": value1,
+    "key2": value2
+}
+JSON.parse แปลง JSON String แปลงให้เป็น JS Object
+JSON.stringify แปลง JS Object เป็น JSON String 
+
+วิธีดึงข้อมูลไปใช้ใน Webside จะใช้ fetch ร่วมกับ then
+
+async / await
+เราต้องใส่ async ไว้หน้า function
+await คือต้องรอให้ดึง .JSON ให้ครบก่อน
